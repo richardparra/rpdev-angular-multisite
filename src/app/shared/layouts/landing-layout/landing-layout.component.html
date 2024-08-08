@@ -1,0 +1,39 @@
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+<div class="transition-all duration-1000 overflow-clip fixed bottom-16 right-5 w-30  z-40">
+  <div *ngIf="openWhatsapp" class="" ><app-message-whastapp></app-message-whastapp> </div>
+  <div class="flex justify-end">
+    <div class="w-16 flex-none px-2">
+      <button
+        *ngIf="isMenuScrolled"
+        (click)="scrollToTop()"
+        class="mt-2 flex text-white transition-all duration-1000 overflow-clip fixed w-10 h-10 bg-primary-900 hover:bg-primary-600 rounded-full z-40"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="2.5"
+          stroke="currentColor"
+          class="w-6 h-6 m-auto"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M4.5 15.75l7.5-7.5 7.5 7.5"
+          />
+        </svg>
+      </button>
+    </div>
+    <div class="w-16 flex-none  px-2">
+      <button
+      (click)="scrollToTop()"
+      (mouseenter)="openWhastApp()"
+      class="fixed  w-12 h-12 bg-primary-900 hover:bg-primary-600 rounded-full z-40 mt-0 hover:-mt-2 transition-all duration-500 "
+    >
+      <img src="iconos/whatsapp-icon-color.png" alt="contactar DM Formación">
+    </button>
+    </div>
+  </div>
+</div>
+

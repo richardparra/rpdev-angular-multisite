@@ -1,0 +1,9 @@
+<div class="h-12 grid content-center">
+  <button [type]="typeBtn" [disabled]="disabled" class="shadow w-full px-4 py-2 focus:ring-4 rounded  flex justify-center hover:shadow-neutral-700 hover:shadow-lg hover:border-opacity-10 transition-all duration-500 mt-2 hover:mt-0 " [ngClass]="mycolors" >
+    <div *ngIf="image!=''" class="pr-2 my-auto"><img class="h-5 "  [src]="image"> </div>
+
+    <div class="my-auto ">
+      <ng-content></ng-content>
+    </div>
+  </button>
+</div>
