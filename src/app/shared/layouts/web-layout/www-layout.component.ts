@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 @Component({
-  selector: 'app-web-layout',
+  selector: 'app-www-layout',
   standalone: true,
   imports: [ RouterOutlet],
-  templateUrl: './web-layout.component.html',
-  styleUrl: './web-layout.component.scss'
+  templateUrl: './www-layout.component.html',
+  styleUrl: './www-layout.component.scss'
 })
-export class WebLayoutComponent {
+export class WwwLayoutComponent {
 
 }

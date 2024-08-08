@@ -2,13 +2,13 @@ import { Component, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { FooterComponent } from '../footer/footer.component';
-import { MessageWhastappComponent } from '../../components/message-whastapp/message-whastapp.component';
+
 
 
 @Component({
   selector: 'app-landing-layout',
   standalone: true,
-  imports: [RouterOutlet, FooterComponent, CommonModule, MessageWhastappComponent],
+  imports: [RouterOutlet, FooterComponent, CommonModule],
   templateUrl: './landing-layout.component.html',
   styleUrl: './landing-layout.component.scss'
 })
