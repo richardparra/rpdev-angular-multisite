@@ -1,4 +1,42 @@
+//@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+//You can use @import url(remote_URL) fonts or you can use font-face
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 /* You can add global styles to this file, and also import other style files */
+
+/*Referencias obligatorias de Tailwindcss*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*Importanto el CDK de angular*/
+@import '@angular/cdk/overlay-prebuilt.css';
+
+
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../public/fonts/poppins.woff2');
+}
+
+@font-face {
+  font-family: "GothamBook";
+  src: url("../public/fonts/GothamBook.ttf");
+}
+
+@font-face {
+  font-family: "GothamBold";
+  src: url("../public/fonts/Gotham-Bold.otf");
+}
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}

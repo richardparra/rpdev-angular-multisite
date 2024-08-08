@@ -1,0 +1,40 @@
+<header class="absolute w-full z-40">
+  <div class="">
+    <div
+      class="px-0 text-white text-opacity-50 {{
+        isMenuScrolled
+          ? 'fixed top-0 w-full  bg-secondary-500 shadow-xl animate-slideInDown animate-faster duration-500'
+          : 'pt-4'
+      }} "
+    >
+      <div class="py-0 {{ isMenuScrolled ? '' : '' }}  ">
+        <div class="flex justify-center">
+          <div class="w-full lg:w-10/12 px-5 flex items-center justify-between">
+            <a class="animate-slideInDown duration-800" href="">
+              LOGOIMG
+            </a>
+            <div>
+              <ul class="lg:flex font-semibold text-lg gap-8 xl:gap-14">
+                <li class="p-3 border-t lg:border-0">
+                    <a [routerLink]="['']">Inicio</a>
+                </li>
+                <li class="p-3 border-t lg:border-0">
+                  <a [routerLink]="['all-course']">Beneficios</a>
+                </li>
+                <li class="p-3 border-t lg:border-0">
+                  <a [routerLink]="['pages']">Programa</a>
+                </li>
+                <li class="p-3 border-t lg:border-0">
+                  <a [routerLink]="['blog']">Inversión</a>
+                </li>
+                <li class="p-3 border-y lg:border-0">
+                  <a [routerLink]="['contact']">Certificación</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
