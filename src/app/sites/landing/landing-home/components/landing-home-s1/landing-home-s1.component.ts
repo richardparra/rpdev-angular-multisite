@@ -11,6 +11,10 @@ import { BtnComponent } from '../../../../../shared/components/btn/btn.component
 })
 export class LandingHomeS1Component {
   onAddToCart(){
+    //demo
+
+  }
+  onclick(){
 
   }
 }
