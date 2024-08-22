@@ -7,35 +7,35 @@
 }
 @media only screen and (min-width: 768px) {
 .bgimage  {
-  background: url('/images/header-bg-768.png');
+  background: url('//images/landing/bg-1366x765.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 }
 @media only screen and (min-width: 1024px) {
   .bgimage  {
     background: url('/images/header-bg-22.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 }
 @media only screen and (min-width: 1364px) {
   .bgimage  {
-    background: url('/images/landing-home-bg-1364.jpg');
+    background: url('/images/landing/bg-1366x765.jpg');
     background-repeat: no-repeat;
     background-size:cover;
   }
 }
 @media only screen and (min-width: 1440px) {
   .bgimage  {
-    background: url('/images/landing-home-bg-1440.png');
+    background: url('/images/landing/bg-1366x765.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 }
 @media only screen and (min-width: 1920px) {
   .bgimage  {
-    background: url('/images/landing-home-bg-1920.jpg');
+    background: url('/images/landing/bg-1366x765.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
