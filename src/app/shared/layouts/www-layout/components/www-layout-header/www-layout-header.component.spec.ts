@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WwwHomeHeaderComponent } from './www-home-header.component';
+import { WwwLayoutHeaderComponent } from './www-layout-header.component';
 
-describe('WwwHomeHeaderComponent', () => {
-  let component: WwwHomeHeaderComponent;
-  let fixture: ComponentFixture<WwwHomeHeaderComponent>;
+describe('WwwLayoutHeaderComponent', () => {
+  let component: WwwLayoutHeaderComponent;
+  let fixture: ComponentFixture<WwwLayoutHeaderComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [WwwHomeHeaderComponent]
+      imports: [WwwLayoutHeaderComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(WwwHomeHeaderComponent);
+    fixture = TestBed.createComponent(WwwLayoutHeaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { BtnComponent } from '../../../../../shared/components/btn/btn.component';
 
 @Component({
-  selector: 'app-wwww-home-s1',
+  selector: 'app-www-home-s1',
   standalone: true,
   imports: [CommonModule , BtnComponent],
   templateUrl: './www-home-s1.component.html',

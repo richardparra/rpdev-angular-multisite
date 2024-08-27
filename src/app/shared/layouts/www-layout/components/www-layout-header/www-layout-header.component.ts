@@ -3,13 +3,13 @@ import { RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-www-home-header',
+  selector: 'app-www-layout-header',
   standalone: true,
   imports: [CommonModule, RouterLink],
-  templateUrl: './www-home-header.component.html',
-  styleUrl: './www-home-header.component.scss',
+  templateUrl: './www-layout-header.component.html',
+  styleUrl: './www-layout-header.component.scss',
 })
-export class WwwHomeHeaderComponent {
+export class WwwLayoutHeaderComponent {
   isMenuScrolled = false;
   isMenuColored = false;
 

@@ -1,6 +1,6 @@
 import { Routes } from "@angular/router";
 import { WwwHomeComponent } from "./www-home/www-home.component";
-import { WwwLayoutComponent } from "../../shared/layouts/web-layout/www-layout.component";
+import { WwwLayoutComponent } from "../../shared/layouts/www-layout/www-layout.component";
 
 export const WWW_ROUTES: Routes = [
   {path:'', component: WwwLayoutComponent, children:[
