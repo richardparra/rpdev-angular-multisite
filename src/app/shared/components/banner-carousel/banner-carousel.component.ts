@@ -5,7 +5,7 @@ import { SwiperDirective } from '../../directives/swiper.directive';
 import {CUSTOM_ELEMENTS_SCHEMA, AfterViewInit,ElementRef, ViewChild } from '@angular/core';
 import { SwiperContainer } from 'swiper/element';
 import { SwiperOptions } from 'swiper/types';
-import { CarouselCard } from '../../../core/models/carousel-card.model';
+import { BannerModel } from '../../../core/models/banner.model';
 //import { BigButtonComponent } from '../big-button/big-button.component';
 
 // import function to register Swiper custom elements
@@ -29,12 +29,12 @@ export class BannerCarouselComponent implements  AfterViewInit {
 
   //propiedades del componente
   @Input() showThumbnail:boolean = true;
-  @Input() InputContents: CarouselCard[] =[];
+  @Input() InputContents: BannerModel[] =[];
   @Input() ThumbnailQty:number = 0;
   @Input() slidesPerViewLG:number =0;
   @Input() slidesPerViewMD:number =0;
 
-  contents: CarouselCard[] = []; // Los contenidos se reciben desde el origen y se cargan en onInit()
+  contents: BannerModel[] = []; // Los contenidos se reciben desde el origen y se cargan en onInit()
   index = 0;
   setupClass = 'border border-gray-600 w-full p-0 img1 h-[480px] md:h-96 lg:h-[580px] text-left subpixel-antialiased flex justify-center';
   @Input() setup: object ={

@@ -1,0 +1,10 @@
+<div class="w-80 rounded rounded-md bg-secondary-100 bg-opacity-65 px-4 py-4">
+  <div class="flex justify-between">
+    <div class="pb-2"><img src="iconos/chat-icon.png" alt="" class="w-10"></div>
+    <div class=""><button (click)="cerrar()" class="text-white text-xl"><fa-icon [icon]="faXmarkCircle" ></fa-icon></button></div>
+  </div>
+  <div class=""><input type="text"  value="{{mensaje}}" class="block py-2 px-0 w-full text-sm text-neutral-900 px-2 appearance-none border border-secondary-100 bg-white rounded rounded-md  focus:outline-none  focus:border-secondary-300 peer"/></div>
+  <div class="">
+    <app-btn (click)="enviarMensaje()"   color="primary" opacity="0" image="">Chatear ahora</app-btn>
+  </div>
+</div>

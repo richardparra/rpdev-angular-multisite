@@ -1,3 +1,4 @@
+import { BannerModel } from "./banner.model";
 export interface OfertaResponse {
   codoferta:     number;
   codigourl: string;
@@ -12,6 +13,7 @@ export interface OfertaResponse {
   monpreaso : number,
   mostrarbeca: boolean,
   convenio: Convenio;
+  banners: BannerModel[];
   secciones: Seccion[];
 }
 

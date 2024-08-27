@@ -15,6 +15,17 @@
     "codconvenio":3,
     "nombre":"Universidad Nacional Mayor de San Marcos"
   },
+  "banners":
+  [
+    {
+      "title": "<span class=\"font-bold \">Ascenso Docente 2024:</span> <br> Preparación integral <br>intensiva",
+      "slogan": "Ascenso Docente 2024: preparación integral intensiva",
+      "bglg": "",
+      "bgsm": "",
+      "image": "data/HOME/images/home-pic1.png",
+      "url":""
+      }
+  ],
   "secciones":
   [
 	{

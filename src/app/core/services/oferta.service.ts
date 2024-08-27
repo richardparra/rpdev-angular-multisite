@@ -2,6 +2,7 @@ import { Injectable,inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '@environments/environment';
 import { OfertaResponse } from '../models/oferta.model';
+import { BannerModel } from '../models/banner.model';
 import { UtilidadService } from './utilidad.service';
 
 @Injectable({
@@ -17,6 +18,12 @@ export class OfertaService {
     this.utilidadService.console_log('Buscando oferta');
     const filename = code+".json";
     return this.httpClient.get<OfertaResponse[]>(`${this.apiJSONURL}/${filename}` );
+  }
+
+  getBanners( code: String ){
+    this.utilidadService.console_log('Buscando oferta');
+    const filename = code+".json";
+    return this.httpClient.get<BannerModel[]>(`${this.apiJSONURL}/${filename}` );
   }
 
 }

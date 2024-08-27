@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { BannerCarouselComponent } from '../../../../../shared/components/banner-carousel/banner-carousel.component';
-import { CarouselCard } from '../../../../../core/models/carousel-card.model';
+import { BannerModel } from '../../../../../core/models/banner.model';
 
 import { BtnComponent } from '../../../../../shared/components/btn/btn.component';
 
@@ -19,7 +19,7 @@ export class WwwHomeS1Component {
     'md:h-196': true,
     'lg:h-[580px]': true,
   };
-  cardsCarousel: CarouselCard[] = [
+  cardsCarousel: BannerModel[] = [
     {
       title: 'MAESTRIA EN EDUCACIÓN',
       slogan:'Millions of companies of all sizes—from startups to Fortune 500s—use Stripe’s software & APIs to accept payments, send payouts',

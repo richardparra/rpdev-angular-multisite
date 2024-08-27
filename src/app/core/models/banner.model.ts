@@ -1,4 +1,4 @@
-export interface CarouselCard {
+export interface BannerModel {
   title: string;
   slogan: string;
   bglg: string;
