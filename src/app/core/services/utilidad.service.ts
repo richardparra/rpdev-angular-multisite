@@ -1,7 +1,5 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, isDevMode } from '@angular/core';
-import moment from 'moment';
-
 
 @Injectable({
   providedIn: 'root'
@@ -51,8 +49,33 @@ export class UtilidadService {
    * @param {String} string dd/mm/yyyy The object to test.
    * @return {Boolean}
    */
+
   public isDateString(value: string): boolean {
-    return moment(value, "DD/MM/YYYY", true).isValid();
+    const DATE_REGEX = /^(0[1-9]|[1-2]\d|3[01])(\/)(0[1-9]|1[012])\2(\d{4})$/
+    const CURRENT_YEAR = new Date().getFullYear()
+
+    const validateDate = (myDate: string) => {
+      /* Comprobar formato dd/mm/yyyy, que el no sea mayor de 12 y los días mayores de 31 */
+      if (!myDate.match(DATE_REGEX)) {
+        return false
+      }
+      /* Comprobar los días del mes */
+      const day = parseInt(myDate.split('/')[0])
+      const month = parseInt(myDate.split('/')[1])
+      const year = parseInt(myDate.split('/')[2])
+      const monthDays = new Date(year, month, 0).getDate()
+      if (day > monthDays) {
+        return false
+      }
+      /* Comprobar que el año no sea superior al actual*/
+      if (year > CURRENT_YEAR) {
+        return false
+      }
+      return true
+    }
+    return validateDate(value);
+    //Se implementa un script de validación de fechas dd/mm/yyyy
+    //return moment(value, "DD/MM/YYYY", true).isValid();
   }
 
   /**
