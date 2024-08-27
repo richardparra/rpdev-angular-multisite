@@ -1,6 +1,6 @@
 export const environment = {
     production : false,
-    APIJSON_URL : 'data/json',
+    APIJSON_URL : '',
     API_URL : 'https://web-test.dm.edu.pe',
 
     URL_OBTENER_TOKEN: 'https://web-test.dm.edu.pe' + "/Prospecto/obtenertoken",

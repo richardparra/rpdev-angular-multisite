@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+
+
 import { LandingHomeHeaderComponent } from './components/landing-home-header/landing-home-header.component';
 import { LandingHomeS1Component } from './components/landing-home-s1/landing-home-s1.component';
 import { LandingHomeS2Component } from './components/landing-home-s2/landing-home-s2.component';
@@ -11,5 +13,7 @@ import { LandingHomeS2Component } from './components/landing-home-s2/landing-hom
   styleUrl: './landing-home.component.scss'
 })
 export class LandingHomeComponent {
+
+
 
 }

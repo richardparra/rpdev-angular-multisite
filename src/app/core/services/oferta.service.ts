@@ -16,14 +16,9 @@ export class OfertaService {
 
   getOferta( code: String ){
     this.utilidadService.console_log('Buscando oferta');
-    const filename = code+".json";
+    //const filename = code+".json";
+    const filename = code;
     return this.httpClient.get<OfertaResponse[]>(`${this.apiJSONURL}/${filename}` );
-  }
-
-  getBanners( code: String ){
-    this.utilidadService.console_log('Buscando oferta');
-    const filename = code+".json";
-    return this.httpClient.get<BannerModel[]>(`${this.apiJSONURL}/${filename}` );
   }
 
 }
