@@ -1,0 +1,179 @@
+[{
+  "codoferta": 3,
+  "codigourl": "ADPII20241",
+  "nombre": "<span class=\"font-bold \">Ascenso Docente 2024:</span> <br> Preparación integral <br>intensiva",
+  "nombrecurso": "Ascenso Docente 2024: preparación integral intensiva",
+  "descripcion": "Impulsa tu carrera docente con una preparación integral que abarca simulacros y entrenamiento en competencias pedagógicas y especializadas.",
+  "horas":"120",
+  "creditos": "0",
+  "modalidad": "VIRTUAL",
+  "fechainicio": "12/09/2024",
+  "monprepub" : 150,
+  "monpreaso" : 100,
+  "mostrarbeca" : false,
+  "convenio":{
+    "codconvenio":3,
+    "nombre":"Universidad Nacional Mayor de San Marcos"
+  },
+  "secciones":
+  [
+	{
+		"nivel":"1",
+		"titsec":"",
+    "dessec":"",
+		"informaciones":
+		[
+		  	{
+		  	"codinfo":"1",
+		  	"titulo":"Acerca del curso",
+        "subtitulo":"",
+        "descripcion": "",
+		  	"contenido":"Este curso está diseñado para equipar a los docentes de EBR en los niveles de inicial, primaria y secundaria con las competencias y conocimientos necesarios para sobresalir en el proceso de ascenso de escala magisterial.",
+        "background": "",
+		  	"imagen":"data/imagenes/acerca-de.svg"
+		  	},
+		  	{
+		  	"codinfo":"2",
+        "titulo":"A quién está dirigido",
+        "subtitulo":"",
+        "descripcion": "",
+		  	"contenido":"<div class='py-0'><ul class='list-disc list-inside pl-4'><li>El curso está dirigido a docentes nombrados de Educación Básica Regular (Inicial, Primaria y Secundaria).</li></ul></div><div class='font-bold text-lg flex w-full  justify-center pt-4 pb-2'>Duración</div><div class='py-2 text-center'><span class='font-bold'>11 semanas</span> <br> (22 sesiones,dos veces por semana)</div><div class='pt-2 text-center'>Jueves: <strong>Teoría</strong></div><div class='pt-0 text-center'>Sábados: <strong>Práctica</strong> <br> (simulacro de examen).</div>",
+		  	"background": "",
+		  	"imagen":"data/imagenes/dirigido-a.svg"
+		  	}
+		  ]
+	},
+	{
+		"nivel":"2",
+		"titsec":"Conoce más del programa de estudios",
+    "dessec":"",
+		"informaciones":
+		[
+		  	{
+		  	"codinfo":"1",
+		  	"titulo":"Plan de estudios",
+        "subtitulo":"",
+        "descripcion": "",
+		  	"contenido":"<p class='py-4'><strong><span >Semana 1</span></strong></p><p class='pb-2'><span >Tema 1: Fundamentos de la Educaci&oacute;n y Enfoques Pedag&oacute;gicos</span></p>        <p class='pl-4'><span >&bull; Principios de la educaci&oacute;n peruana</span></p>        <p class='pl-4'><span >&bull; Constructivismo y socioconstructivismo</span></p>        <p class='pl-4'><span >&bull; Aprendizajes significativos</span></p><p class='py-4'><strong><span >Semana 2</span></strong></p><p class='pb-2'><span >Tema 2: Enfoques y Estrategias del Curr&iacute;culo Nacional</span></p>        <p class='pl-4'><span >&bull; Enfoque por competencias en el Curr&iacute;culo Nacional de la Educaci&oacute;n B&aacute;sica</span></p>                <p class='pl-12'><span >&bull; Competencias</span></p>                <p class='pl-12'><span >&bull; Capacidades</span></p>                <p class='pl-12'><span >&bull; Est&aacute;ndares</span></p>                <p class='pl-12'><span >&bull; Desempe&ntilde;os</span></p>        <p class='pl-4'><span >&bull; Enfoques transversales en el Curr&iacute;culo Nacional de la Educaci&oacute;n B&aacute;sica.</span></p><p class='py-4'><strong><span >Semana 3</span></strong></p><p class='pb-2'><span >Tema 3: Planificaci&oacute;n y Activaci&oacute;n del Aprendizaje</span></p>        <p class='pl-4'><span >&bull; Planificaci&oacute;n pedag&oacute;gica</span></p>        <p class='pl-4'><span >&bull; Activaci&oacute;n y recojo de saberes previos</span></p>        <p class='pl-4'><span >&bull; Conflicto o disonancia cognitiva</span></p>        <p class='pl-4'><span >&bull; Demanda cognitiva</span></p><p class='py-4'><strong><span >Semana 4</span></strong></p><p class='pb-2'><span >Tema 4: Evaluaci&oacute;n, Retroalimentaci&oacute;n y Gesti&oacute;n de los Aprendizajes</span></p>        <p class='pl-4'><span >&bull; Evaluaci&oacute;n y retroalimentaci&oacute;n</span></p>        <p class='pl-4'><span >&bull; Gesti&oacute;n de los aprendizajes</span></p>                <p class='pl-12'><span >&bull; Aprendizaje aut&oacute;nomo</span></p>                <p class='pl-12'><span >&bull; Toma de decisiones</span></p>                <p class='pl-12'><span >&bull; Metacognici&oacute;n</span></p>        <p class='pl-4'><span >&bull; Procesos auxiliares del aprendizaje</span></p>                <p class='pl-12'><span >&bull; Atenci&oacute;n</span></p>                <p class='pl-12'><span >&bull; Motivaci&oacute;n</span></p>                <p class='pl-12'><span >&bull; Recuperaci&oacute;n</span></p>                <p class='pl-12'><span >&bull; Transferencia</span></p>                <p class='pl-12'><span >&bull; Andamiaje</span></p><p class='py-4'><strong><span >Semana 5</span></strong></p><p class='pb-2'><span >Tema 5: Convivencia, Tecnolog&iacute;a y Desarrollo Estudiantil</span></p>        <p class='pl-4'><span >&bull; Convivencia democr&aacute;tica y clima de aula</span></p>        <p class='pl-4'><span >&bull; Uso de las TIC para el aprendizaje</span></p>        <p class='pl-4'><span >&bull; Trabajo colaborativo</span></p>        <p class='pl-4'><span >&bull; Caracter&iacute;sticas y desarrollo del estudiante en relaci&oacute;n con su aprendizaje</span></p>                <p class='pl-12'><span >&bull; Desarrollo cognitivo</span></p>                <p class='pl-12'><span >&bull; Desarrollo socioemocional</span></p>                <p class='pl-12'><span >&bull; Desarrollo de la identidad</span></p><p class='py-4'><strong><span >Semana 6</span></strong></p><p class='pb-2'><span >Tema 6: Comprensi&oacute;n lectora</span></p><p class='py-4'><strong><span >Semana 7 a 11</span></strong><span >: Depende de tu &aacute;rea de ense&ntilde;anza:</span></p>        <p class='pl-4'><span >Inicial</span></p>        <p class='pl-4'><span >Primaria</span></p>        <p class='pl-4'><span >Primaria Educaci&oacute;n f&iacute;sica</span></p>        <p class='pl-4'><span >Secundaria Comunicaci&oacute;n</span></p>        <p class='pl-4'><span >Secundaria Matem&aacute;tica</span></p>",
+        "background": "",
+		  	"imagen":""
+		  	},
+		  	{
+		  	"codinfo":"2",
+		  	"titulo":"Nuestra metodología",
+        "subtitulo":"",
+        "descripcion": "",
+		  	"contenido":"<p ><span >Nuestro curso ofrece una combinaci&oacute;n estrat&eacute;gica de sesiones te&oacute;ricas y pr&aacute;cticas, centradas en el aprendizaje activo y la mejora continua. Dise&ntilde;amos cada sesi&oacute;n para maximizar tu potencial, combinando materiales de lectura cuidadosamente seleccionados, estudios de caso relevantes y simulacros rigurosos que promueven un aprendizaje aut&oacute;nomo y profundo.</span></p><p class='pt-4'><span >Lo que te ofrecemos:</span></p><p class='py-4 font-bold'><span >&bull; Sesiones sincr&oacute;nicas en vivo:</span></p><p ><span >Con&eacute;ctate a clases en vivo a trav&eacute;s de Zoom, donde recibir&aacute;s orientaci&oacute;n personalizada de docentes altamente experimentados. Estas sesiones te permiten interactuar directamente con los instructores, aclarar dudas en tiempo real y recibir retroalimentaci&oacute;n que te ayudar&aacute; a alcanzar tus metas de aprendizaje con confianza.</span></p><p class='py-4 font-bold'><span >&bull; Sesiones asincr&oacute;nicas flexibles:</span></p><p ><span >Desarrolla tus habilidades en cualquier momento y lugar con nuestros simulacros asincr&oacute;nicos. Podr&aacute;s poner a prueba tus conocimientos y fortalecer tus competencias, adaptando el estudio a tu ritmo y horario.</span></p><p class='py-4 font-bold'><span >&bull; Acceso exclusivo al Aula Virtual de DM Formaci&oacute;n:</span></p><p ><span >Nuestra plataforma virtual te ofrece recursos educativos de alta calidad, incluyendo materiales en PDF y contenido audiovisual enriquecido por la experiencia de nuestros docentes. Tendr&aacute;s acceso a un entorno de aprendizaje actualizado y dise&ntilde;ado para apoyarte en cada etapa de tu preparaci&oacute;n.</span></p><p class='pt-4 pb-4'><span >Estudiar con nosotros no solo significa estar mejor preparado, sino tambi&eacute;n estar acompa&ntilde;ado por un equipo dedicado a tu &eacute;xito en el proceso de ascenso docente.</span></p>",
+        "background": "",
+		  	"imagen":""
+		  	},
+		  	{
+		  	"codinfo":"3",
+		  	"titulo":"Perfil del egresado",
+        "subtitulo":"",
+        "descripcion": "",
+		  	"contenido":"<div>Al finalizar el curso, los docentes estarán preparados enfrentar el concurso de ascenso docente 2024, con un dominio sólido en la evaluación de conocimientos pedagógicos generales y específicos, y en el análisis de casos prácticos, para el fortalecimiento de su crecimiento profesional y su práctica educativa</div>",
+        "background": "",
+		  	"imagen":""
+		  	},
+		  	{
+		  	"codinfo":"4",
+		  	"titulo":"¿Cómo me inscribo?",
+        "subtitulo":"",
+        "descripcion": "",
+		  	"contenido":"<p class='font-bold  py-4'><span >Paso 1: Reg&iacute;strate en nuestra web</span></p><p ><span >Visita nuestra p&aacute;gina web oficial y completa el formulario de registro con tus datos personales. Aseg&uacute;rate de ingresar una direcci&oacute;n de correo electr&oacute;nico v&aacute;lida para recibir toda la informaci&oacute;n relacionada con el curso.</span></p><p class='font-bold  py-4'><span >Paso 2: Habla con nuestro equipo</span></p><p ><span >Una vez registrado, uno de nuestros asesores educativos se pondr&aacute; en contacto contigo para brindarte orientaci&oacute;n personalizada sobre las opciones de pago y resolver cualquier duda que tengas. Nuestro equipo te guiar&aacute; en cada paso para asegurarte de que el proceso sea claro y sencillo.</span></p><p class='font-bold  py-4'><span >Paso 3: Realiza el pago</span></p><p ><span >Despu&eacute;s de hablar con nuestro equipo, selecciona la opci&oacute;n de pago que m&aacute;s te convenga: pago en agente, ventanilla, transferencia bancaria o app. Una vez realizado el pago, guarda el comprobante de la transacci&oacute;n.</span></p><p class='font-bold py-4'><span >Paso 4: Confirma tu inscripci&oacute;n</span></p><p ><span >Env&iacute;a tu comprobante de pago a los medios que te indicar&aacute; el asesor educativo. Recibir&aacute;s un correo de confirmaci&oacute;n con todos los detalles del curso, incluyendo el acceso a nuestra aula virtual.</span></p>",
+        "background": "",
+		  	"imagen":""
+		  	},
+		  	{
+		  	"codinfo":"5",
+		  	"titulo":"Requisitos",
+        "subtitulo":"",
+        "descripcion": "",
+		  	"contenido":"<ul id='isPasted'><li style='list-style-type:disc;font-size:11pt;'><p style='text-align: justify;'><span style='font-size:11pt;'>&bull; Conectividad a internet estable.</span></p></li><li style='list-style-type:disc;font-size:11pt;'><p style='text-align: justify;'><span style='font-size:11pt;'>&bull; Contar con un dispositivo de acceso (PC, Laptop o dispositivo móvil) para ingresar al aula virtual.</span></p></li><li style='list-style-type:disc;font-size:11pt;'><p style='text-align: justify;'><span style='font-size:11pt;'>&bull; Tener instalado un programa de lectura de archivos PDF, WORD, EXCEL, POWER POINT.</span></p></li><li style='list-style-type:disc;font-size:11pt;'><p style='text-align: justify;'><span style='font-size:11pt;'>&bull; Agendar al menos 6 horas a la semana para acceder y participar de las clases virtuales.</span></p></li></ul>",
+        "background": "",
+		  	"imagen":""
+		  	},
+		  	{
+		  	"codinfo":"6",
+		  	"titulo":"Formas de pago",
+        "subtitulo":"",
+        "descripcion": "",
+		  	"contenido":"<p class='py-4'><span >Paga el valor correspondiente del curso en el BCP usando los siguientes canales:</span></p><p class='pl-10'><strong><span >Cuenta Corriente en soles</span></strong><span >: 193-1709316-0-17</span></p><p class='pl-10'><strong><span >C&oacute;digo Interbancario (CCI)</span></strong><span >: 002-193-001709316017-18</span></p><p class='py-4'><span >Opciones de pago:</span></p>    <p class='pl-10'><strong><span >Ventanilla del BCP</span></strong><span >: Indica la cuenta corriente en soles.</span></p>    <p class='pl-10'><strong><span >Agente BCP</span></strong><span >: C&oacute;digo 0900.</span></p>    <p class='pl-10'><strong><span >App/web BCP</span></strong><span >: Pago de servicio &ndash; nombre de la instituci&oacute;n (DERRAMA MAGISTERIAL) &ndash; capacitaci&oacute;n docente <span >&ndash; &nbsp;ingresa tu DNI</span>.</span></p>    <p class='pl-10'><strong><span >App/web de cualquier otro banco</span></strong><span >: Transferencia interbancaria.</span></p><p class='py-4'><span >Env&iacute;a el voucher o comprobante de pago con tus datos (nombre, apellido y n&uacute;mero de documento de identidad) a tu asesor educativo: (WhatsApp) +51 920 376 446&nbsp;</span></p>",
+        "background": "",
+		  	"imagen":""
+		  	}
+		  ]
+	},
+  {
+    "nivel":"3",
+		"titsec":"Conoce a tus docentes",
+    "dessec":"",
+		"informaciones":[]
+  },
+  {
+    "nivel":"4",
+		"titsec":"",
+    "dessec":"",
+		"informaciones":
+    [
+      {
+        "titulo": "<span class='md:text-xl'>Al finalizar obtendrás</span>",
+        "subtitulo": "<span class='text-2xl font-bold'>Certificado 120 horas <br>pedagógicas por la UNMSM</span>",
+        "descripcion": "",
+        "contenido": "",
+        "background": "",
+        "imagen": "data/ADPII20241/landing-home-seccion4-pic1.png"
+      }
+    ]
+  },
+  {
+    "nivel":"5",
+		"titsec":"¿Por qué tomar este <br> <span class='font-bold'> curso con nosotros?</span>",
+    "dessec":"",
+		"informaciones":
+    [
+      {
+        "titulo": "Desarrollo de habilidades clave",
+        "subtitulo": "",
+        "descripcion": "Perfecciona tus competencias en planificación, evaluación y metodologías de enseñanza con un enfoque en la mejora continua. Nuestro curso está diseñado para que adquieras herramientas prácticas que puedas aplicar de inmediato en tu labor docente.",
+        "contenido": "",
+        "background": "",
+        "imagen": "data/iconos/persona-idea-ico.svg"
+      },
+      {
+        "titulo": "Respaldo Académico de Prestigio",
+        "subtitulo": "",
+        "descripcion": "Nuestro curso cuenta con el respaldo de la Facultad de Educación y el Centro de Responsabilidad Social Universitaria CERSEU de la Universidad Nacional Mayor de San Marcos (UNMSM). Esta alianza garantiza una formación de alta calidad, alineada con los estándares más exigentes en el ámbito educativo.",
+        "contenido": "",
+        "background": "",
+        "imagen": "data/iconos/persona-idea-ico.svg"
+      },
+      {
+        "titulo": "Docentes expertos",
+        "subtitulo": "",
+        "descripcion": "Aprende de profesionales con una amplia trayectoria en educación y evaluación magisterial. Nuestros docentes no solo son expertos en su campo, sino que también entienden las necesidades específicas del proceso de ascenso docente, asegurando una preparación integral y enfocada en el éxito.",
+        "contenido": "",
+        "background": "",
+        "imagen": "data/iconos/persona-idea-ico.svg"
+      }
+    ]
+  },
+  {
+    "nivel":"6",
+		"titsec":"ESTA SECCIÓN QUEDA FIJA PORQUE ES UN TEMA DE PRECIOS",
+    "dessec":"",
+		"informaciones":
+    [
+      {
+        "titulo": "",
+        "subtitulo": "",
+        "descripcion": "",
+        "contenido": "",
+        "background": "",
+        "imagen": ""
+      }
+    ]
+  }
+  ]}
+]

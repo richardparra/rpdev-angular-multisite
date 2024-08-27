@@ -4,6 +4,7 @@ import { Injectable, isDevMode } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
+
 export class UtilidadService {
 
   public CODAPLI:string='003';

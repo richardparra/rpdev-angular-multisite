@@ -1,0 +1,82 @@
+<!-- autoplay -->
+<div class="w-full p-0">
+  <div class="flex">
+    <main class="w-full px-0">
+      <!-- image -->
+      <swiper-container
+        appSwiper
+        #swiper
+        [config]="swiperConfig"
+        thumbs-swiper=".mySwiper2"
+        (slidechange)="slideChange($event)"
+      >
+        <div slot="container-start"></div>
+        <div slot="container-end"></div>
+        <swiper-slide
+          *ngFor="let item of contents"
+          class="h-auto flex justify-center"
+        >
+          <button *ngIf="item.bglg != '' || item.bgsm != '' " class="w-full">
+            <!--Card para desktop o cuando no hay banner para movil-->
+            <div
+              *ngIf="item.bglg != ''"
+              class="{{setupClass}}"
+              [ngStyle]="{
+                background: 'url(' + item.bglg + ')  no-repeat center top / cover'
+              }"
+              [ngClass]="{'hidden lg:block' : item.bgsm != '' }"
+            >
+              <div class="pl-4 w-full lg:w-10/12">
+                <div class="pt-16 text-3xl w-6/12 text-white" [innerHTML]="item.title">
+                </div>
+                <div class="pt-8 text-white text-md w-4/12" [innerHTML]="item.slogan">
+                </div>
+              </div>
+            </div>
+            <!--Card para dispositivos móviles-->
+            <div
+              *ngIf="item.bgsm != ''"
+              class="{{setupClass}}"
+              [ngStyle]="{
+                background: 'url(' + item.bgsm + ')  no-repeat center top / cover'
+              }"
+              [ngClass]="{'block lg:hidden' : item.bglg != ''}"
+            >
+              <div class="pl-4 w-full lg:w-10/12">
+                <div class="pt-16 text-3xl w-6/12 text-white " [innerHTML]="item.title">
+                </div>
+                <div class="pt-8 text-white text-md w-4/12" [innerHTML]="item.slogan">
+                </div>
+              </div>
+            </div>
+          </button>
+          <div
+            *ngIf="item.image != ''"
+            class="w-11/12 border h-48 border-blue-500"
+          >
+            <button>BOTON BIG BUTTON</button>
+          </div>
+        </swiper-slide>
+      </swiper-container>
+      <!-- /image -->
+
+      <!-- thumbnails -->
+      <swiper-container
+        appSwiper
+        #swiperThumbs
+        [config]="swiperThumbsConfig"
+        class="mySwiper2 flex"
+        *ngIf="contents.length > 1 && showThumbnail"
+      >
+        <swiper-slide *ngFor="let item of contents">
+          <div
+            class="w-30 h-40"
+            role="button"
+            [ngStyle]="{ background: 'url(' + item.bglg + ') center ' }"
+          ></div>
+        </swiper-slide>
+      </swiper-container>
+      <!-- /thumbnails -->
+    </main>
+  </div>
+</div>

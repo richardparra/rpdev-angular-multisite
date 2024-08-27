@@ -1,7 +1,7 @@
 import { AfterViewInit, Directive, ElementRef, Input  } from '@angular/core';
 import { SwiperContainer } from 'swiper/element';
 import { SwiperOptions } from 'swiper/types'
-import { UtilidadService } from '../../../core/services/utilidad.service';
+import { UtilidadService } from '../../core/services/utilidad.service';
 
 @Directive({
   selector: '[appSwiper]',
